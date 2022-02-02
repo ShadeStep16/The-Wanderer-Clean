@@ -1,0 +1,2370 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 32678 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+N:/Unity Stuff/The-Wanderer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63793
+Successfully changed project path to: N:/Unity Stuff/The-Wanderer
+N:/Unity Stuff/The-Wanderer
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path N:/Unity Stuff/The-Wanderer/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   
+    VRAM:     8012 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002078 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 29.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.471 seconds
+Domain Reload Profiling:
+	ReloadAssembly (471ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (363ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (133ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004184 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Domain Reload Profiling:
+	ReloadAssembly (853ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (676ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.1 MB.
+System memory in use after: 105.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1965.
+Total: 3.038700 ms (FindLiveObjects: 0.225700 ms CreateObjectMapping: 0.049000 ms MarkObjects: 2.671800 ms  DeleteObjects: 0.090400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(4ffcef206f903ec45b1e4bf3c5be6011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(4ffcef206f903ec45b1e4bf3c5be6011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f03d1575e822e7150cf3765c9069dd3') in 0.058419 seconds 
+  Import took 0.060925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1129.543755 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-0_comp_dir.png
+  artifactKey: Guid(14b72867959f69a45a92c162dead9cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-0_comp_dir.png using Guid(14b72867959f69a45a92c162dead9cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d461302dfc19d3397bd0bf8ab1c2c7') in 0.070568 seconds 
+  Import took 0.073889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-4_comp_dir.png
+  artifactKey: Guid(df75226641b57b64e93249f494dd8aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-4_comp_dir.png using Guid(df75226641b57b64e93249f494dd8aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3276108d63ec9a706cdbb3ad120f89ee') in 0.013179 seconds 
+  Import took 0.015256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_02_Atlas_T.png
+  artifactKey: Guid(bd9e9257e4378e444a3a374065449d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_02_Atlas_T.png using Guid(bd9e9257e4378e444a3a374065449d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eeb6b747a7fe1d9ada4bf5fe0fe1522') in 0.030075 seconds 
+  Import took 0.032169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_02_Snow_Atlas_m .png
+  artifactKey: Guid(e6d515413288f0945b78d120919a4209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_02_Snow_Atlas_m .png using Guid(e6d515413288f0945b78d120919a4209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84d9017b6243d676ecd2d5cc4263aa8') in 0.013518 seconds 
+  Import took 0.016002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/ReflectionProbe-1.exr
+  artifactKey: Guid(848013ed880ce4246b9486a140fb5710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/ReflectionProbe-1.exr using Guid(848013ed880ce4246b9486a140fb5710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993925e1168db1d3a31f7bc2d1e690b6') in 0.044548 seconds 
+  Import took 0.047167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_01_Snow_Atlas_m .png
+  artifactKey: Guid(37d933aec38b2114481d216f36f9be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_01_Snow_Atlas_m .png using Guid(37d933aec38b2114481d216f36f9be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e4dce46521e245372fee8b094b959f') in 0.013067 seconds 
+  Import took 0.015268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/Mask_02.tga
+  artifactKey: Guid(6349e89fc4c9c4f4cbe25750cd9169de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/Mask_02.tga using Guid(6349e89fc4c9c4f4cbe25750cd9169de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ef4feeaab50011aed47028310aeafc') in 0.018555 seconds 
+  Import took 0.020827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-1_comp_dir.png
+  artifactKey: Guid(ea457d0fad511a74e89086a9643c7280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-1_comp_dir.png using Guid(ea457d0fad511a74e89086a9643c7280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb887741aa0abf89c5afd242a671460') in 0.012974 seconds 
+  Import took 0.015081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_03_Snow_Atlas_m .png
+  artifactKey: Guid(3f566d2db6b35d5449d4ef9ef5396225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_03_Snow_Atlas_m .png using Guid(3f566d2db6b35d5449d4ef9ef5396225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de0d91c5353318b4ca05319ddef6141') in 0.012527 seconds 
+  Import took 0.014828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_05_Atlas.png
+  artifactKey: Guid(5385c14c048c7834882e8e4d025bc8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_05_Atlas.png using Guid(5385c14c048c7834882e8e4d025bc8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd367f8af74269f0d22626ce11d4e0b84') in 0.012177 seconds 
+  Import took 0.014458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_01_Atlas.png
+  artifactKey: Guid(d68b901193817744a874fd1a1f024cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_01_Atlas.png using Guid(d68b901193817744a874fd1a1f024cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507b09a68b88d525cf0902f1278d44d6') in 0.013365 seconds 
+  Import took 0.015693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/ReflectionProbe-4.exr
+  artifactKey: Guid(9c5a560fdacfea346ac114c6509ef45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/ReflectionProbe-4.exr using Guid(9c5a560fdacfea346ac114c6509ef45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa1f3c4c87f2c8416485de7f78adeaa') in 0.016548 seconds 
+  Import took 0.018866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-5_comp_light.exr
+  artifactKey: Guid(79248541ed803714da1a46851c8c8dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-5_comp_light.exr using Guid(79248541ed803714da1a46851c8c8dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c72534609db444e812393832adc189b') in 0.018016 seconds 
+  Import took 0.020041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_03_Atlas_n.png
+  artifactKey: Guid(5c0dd408e2f6acf4d847a89944767e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_03_Atlas_n.png using Guid(5c0dd408e2f6acf4d847a89944767e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe08241959e467c9ccb3f4924833bdc') in 0.014299 seconds 
+  Import took 0.017000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_04_Snow_Atlas.png
+  artifactKey: Guid(0d0f969ebf4c0084b8ab43e915ae0325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_04_Snow_Atlas.png using Guid(0d0f969ebf4c0084b8ab43e915ae0325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76db6084a29c1cc18eca3f758bfcd27b') in 0.012513 seconds 
+  Import took 0.015190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-3_comp_light.exr
+  artifactKey: Guid(55936062f4160414a9183225534a1f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-3_comp_light.exr using Guid(55936062f4160414a9183225534a1f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22db325d9b46c9ac859aaf01165b3b5c') in 0.013536 seconds 
+  Import took 0.016019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/Mask.tga
+  artifactKey: Guid(5a976c4cdfe72a343b88b958235a9cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/Mask.tga using Guid(5a976c4cdfe72a343b88b958235a9cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdcf7e80b02ad3445d92efd6322dcaf') in 0.013487 seconds 
+  Import took 0.016133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_04_Atlas.png
+  artifactKey: Guid(3221a8d433eb7b740a5b417f5b3d6eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_04_Atlas.png using Guid(3221a8d433eb7b740a5b417f5b3d6eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dffa14e1b927cff524fd308d4240c9') in 0.013218 seconds 
+  Import took 0.015385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_04_Atlas_T.png
+  artifactKey: Guid(28e96ff061ae0fa4e8fe53c1d1f43bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_04_Atlas_T.png using Guid(28e96ff061ae0fa4e8fe53c1d1f43bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a76e9f988530c9df39a5712c526f64') in 0.012219 seconds 
+  Import took 0.014309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/ReflectionProbe-3.exr
+  artifactKey: Guid(e82cfa84bf318cf45858fef675844ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/ReflectionProbe-3.exr using Guid(e82cfa84bf318cf45858fef675844ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb613250c137eaebd81e823c8354ab1a') in 0.015204 seconds 
+  Import took 0.017710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_05_Atlas_T.png
+  artifactKey: Guid(dc8bcb09a17316d46b6d36decec0fd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_05_Atlas_T.png using Guid(dc8bcb09a17316d46b6d36decec0fd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc001a0da4afb79447a80f102fa90133') in 0.011869 seconds 
+  Import took 0.013886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-2_comp_dir.png
+  artifactKey: Guid(2c6b625857a6c9449b590596793d09e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-2_comp_dir.png using Guid(2c6b625857a6c9449b590596793d09e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee6717aaff9a80ca28828cf645d99d6') in 0.012426 seconds 
+  Import took 0.014910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_01_Atlas_T.png
+  artifactKey: Guid(17157a1c782f51943a46f5f4ab88cda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_01_Atlas_T.png using Guid(17157a1c782f51943a46f5f4ab88cda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d115af8f9f7b3544057d1d05aea9fe') in 0.012760 seconds 
+  Import took 0.014785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-4_comp_light.exr
+  artifactKey: Guid(0b34f66b5fcae984784f04ca49ab495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-4_comp_light.exr using Guid(0b34f66b5fcae984784f04ca49ab495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd4991f4eca5d84679f29d50061898c') in 0.010707 seconds 
+  Import took 0.012704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/M_Background Snow_MaskMap.png
+  artifactKey: Guid(24c7984be7372e540a77f664f0a408db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/M_Background Snow_MaskMap.png using Guid(24c7984be7372e540a77f664f0a408db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f190a684011f7aa56fed6d737274421') in 0.015235 seconds 
+  Import took 0.017779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_02_Snow_Atlas.png
+  artifactKey: Guid(a165bcbaccf0e3a43a9d5903b96cc45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_02_Snow_Atlas.png using Guid(a165bcbaccf0e3a43a9d5903b96cc45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5e86b3b44a32e4b7a640882182cea8') in 0.012147 seconds 
+  Import took 0.014382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_01_Atlas_n.png
+  artifactKey: Guid(c37022698c41b1a4d8230e9190cba1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_01_Atlas_n.png using Guid(c37022698c41b1a4d8230e9190cba1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43879934dcd954c9982fcce35456a90e') in 0.011622 seconds 
+  Import took 0.013810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_03_Atlas.png
+  artifactKey: Guid(ae93486ef0dd0824aa65ece4a0673af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_03_Atlas.png using Guid(ae93486ef0dd0824aa65ece4a0673af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f412f87fcf7f8538b47fab780267bc') in 0.012522 seconds 
+  Import took 0.014760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_02_Atlas.png
+  artifactKey: Guid(bf0e6e3094417e0499408282a72dccf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_02_Atlas.png using Guid(bf0e6e3094417e0499408282a72dccf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3449b30cce3777b678f25a988a2450fa') in 0.012217 seconds 
+  Import took 0.014688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-1_comp_light.exr
+  artifactKey: Guid(9edcb68a06ddee642b7a930614b2b8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-1_comp_light.exr using Guid(9edcb68a06ddee642b7a930614b2b8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb89117a1a1aac2a749d83727511d44d') in 0.013227 seconds 
+  Import took 0.015378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-5_comp_dir.png
+  artifactKey: Guid(b4e312f52df926b40a1ebb385dd367d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-5_comp_dir.png using Guid(b4e312f52df926b40a1ebb385dd367d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e70dc794958e9b939c597e3f8c3f771') in 0.013008 seconds 
+  Import took 0.015260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-0_comp_light.exr
+  artifactKey: Guid(a97e57dd5f0a8f04c98c0678b34b2cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-0_comp_light.exr using Guid(a97e57dd5f0a8f04c98c0678b34b2cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d9c8785e3018aad715adecef88daef') in 0.018181 seconds 
+  Import took 0.021152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/ReflectionProbe-0.exr
+  artifactKey: Guid(efc397398c5181e4dab3b34cda57cf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/ReflectionProbe-0.exr using Guid(efc397398c5181e4dab3b34cda57cf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20724bb0b025f1f8e89fb3401e911e7d') in 0.016154 seconds 
+  Import took 0.018710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-2_comp_light.exr
+  artifactKey: Guid(b05297f343e95a44494bb6698c5e1327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-2_comp_light.exr using Guid(b05297f343e95a44494bb6698c5e1327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf331b57818c7f9cee8939f115e589c1') in 0.012176 seconds 
+  Import took 0.014497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-3_comp_dir.png
+  artifactKey: Guid(cf095d4578412f44f90dcbb6e713cf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/Lightmap-3_comp_dir.png using Guid(cf095d4578412f44f90dcbb6e713cf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfaef753a134b688f3b2e3b3f7dc82ad') in 0.012434 seconds 
+  Import took 0.014721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_01_Snow_Atlas.png
+  artifactKey: Guid(2372d69d675ae904891daf8868d7db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_01_Snow_Atlas.png using Guid(2372d69d675ae904891daf8868d7db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776087740dcbbc2bb14dfe6fd64a11ef') in 0.011482 seconds 
+  Import took 0.013829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_04_Atlas_n.png
+  artifactKey: Guid(f0299720f9bc0954cbfe71474cc77eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_04_Atlas_n.png using Guid(f0299720f9bc0954cbfe71474cc77eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fd7ac63b56a3b757b818db0dc709ff') in 0.011787 seconds 
+  Import took 0.013739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_04_Snow_Atlas_m .png
+  artifactKey: Guid(b74ee3a463f297a478004aae9907ad44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_04_Snow_Atlas_m .png using Guid(b74ee3a463f297a478004aae9907ad44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea739fd1ede51272af90b8785bcc1cbd') in 0.011692 seconds 
+  Import took 0.014202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/ReflectionProbe-2.exr
+  artifactKey: Guid(a14efe14515af1e4faa148e4cb004fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/Dynamic Nature - Mountain Tree Pack/ReflectionProbe-2.exr using Guid(a14efe14515af1e4faa148e4cb004fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb05f4a4810564728b7d708682ba42bb') in 0.016108 seconds 
+  Import took 0.018402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_03_Snow_Atlas.png
+  artifactKey: Guid(bc60ab6a033050d48b144097377428e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_03_Snow_Atlas.png using Guid(bc60ab6a033050d48b144097377428e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c89a96a625a29d91eb44e5860a81e66') in 0.012162 seconds 
+  Import took 0.014248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_05_Atlas_n.png
+  artifactKey: Guid(06a2f64ca3c377e4899525fe60bf9f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_05_Atlas_n.png using Guid(06a2f64ca3c377e4899525fe60bf9f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd113725eafc5a19ef58515e98897d49e') in 0.011747 seconds 
+  Import took 0.014136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_03_Atlas_T.png
+  artifactKey: Guid(169ca6ae2d2240048a80210c1e62ae23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_03_Atlas_T.png using Guid(169ca6ae2d2240048a80210c1e62ae23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134612f3cf04938416758b470b3b1712') in 0.011623 seconds 
+  Import took 0.014106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_02_Atlas_n.png
+  artifactKey: Guid(561eb40787ade1f4cabbf5906b840ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_02_Atlas_n.png using Guid(561eb40787ade1f4cabbf5906b840ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b95b44b138f6eea67d22870ddcacf76') in 0.011688 seconds 
+  Import took 0.014001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.202066 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_05_Snow_Atlas.png
+  artifactKey: Guid(ef9fa58756aa8384b9762d4b0532b51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_05_Snow_Atlas.png using Guid(ef9fa58756aa8384b9762d4b0532b51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b48b62b7af301b87dc79b04280abc9') in 0.011557 seconds 
+  Import took 0.013988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_07_Atlas_n.png
+  artifactKey: Guid(8ac8dc01bd5653046a7f10fd2e9bc503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_07_Atlas_n.png using Guid(8ac8dc01bd5653046a7f10fd2e9bc503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b10844e9a345dfa59bc5a235978b2a0') in 0.011878 seconds 
+  Import took 0.013934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_06_Atlas_n.png
+  artifactKey: Guid(843c81b78354b064ebf827e881387264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_06_Atlas_n.png using Guid(843c81b78354b064ebf827e881387264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1441465cc95e6292bf4ae73ce0cab832') in 0.011817 seconds 
+  Import took 0.014173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_07_Atlas_T.png
+  artifactKey: Guid(ae240d96209abec45a16f71a2481cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_07_Atlas_T.png using Guid(ae240d96209abec45a16f71a2481cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1ee51529436b703a197fd022df2427') in 0.011316 seconds 
+  Import took 0.013487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_06_Snow_Atlas_m .png
+  artifactKey: Guid(f3d74319f1364ab40937bcc948a8a6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_06_Snow_Atlas_m .png using Guid(f3d74319f1364ab40937bcc948a8a6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a0ded5d0e8f3acf830053c53de7b67') in 0.010617 seconds 
+  Import took 0.012955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_06_Snow_Atlas.png
+  artifactKey: Guid(7b58677bfb2e9184eb60367bcf940bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_06_Snow_Atlas.png using Guid(7b58677bfb2e9184eb60367bcf940bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73583f8d944ef3b39b6c5dcc451aa464') in 0.012133 seconds 
+  Import took 0.014514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_07_Atlas.png
+  artifactKey: Guid(811dcae0fcbdf4849b1da00314c07203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_07_Atlas.png using Guid(811dcae0fcbdf4849b1da00314c07203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db16b680bd7f378cfaa2045876304e7c') in 0.011199 seconds 
+  Import took 0.013185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_06_Atlas_T.png
+  artifactKey: Guid(eac37d10f85ac404e9742aae5a50f387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_06_Atlas_T.png using Guid(eac37d10f85ac404e9742aae5a50f387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7746421caab54c0b82ffc7892aa1d3c7') in 0.011317 seconds 
+  Import took 0.013531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_05_Snow_Atlas_m .png
+  artifactKey: Guid(10c561e2298b2e947b9e206d3d9240c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_05_Snow_Atlas_m .png using Guid(10c561e2298b2e947b9e206d3d9240c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdceff095d7fe26f915b2aa01764d35') in 0.011507 seconds 
+  Import took 0.013665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_06_Atlas.png
+  artifactKey: Guid(f9479b6c0bd3ab14ea5e81d2be930723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_06_Atlas.png using Guid(f9479b6c0bd3ab14ea5e81d2be930723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92045b92bc4f3d485b3e0459a2cf2480') in 0.011594 seconds 
+  Import took 0.013932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003385 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_07_Snow_Atlas.png
+  artifactKey: Guid(91cbaf8961c460441bdbe4a7132a657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_07_Snow_Atlas.png using Guid(91cbaf8961c460441bdbe4a7132a657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956a3e53b654d55e7d4901192c7cd9bc') in 0.012353 seconds 
+  Import took 0.014551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_01_BC.tga
+  artifactKey: Guid(ab2c32e69a0549e4c90f643594161289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_01_BC.tga using Guid(ab2c32e69a0549e4c90f643594161289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4837c18ddb91603cc6170e0b8dc06439') in 0.014637 seconds 
+  Import took 0.017039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_08_Atlas_n.png
+  artifactKey: Guid(ae3fa5d30c069194492c5c3b49dfdd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_08_Atlas_n.png using Guid(ae3fa5d30c069194492c5c3b49dfdd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf295946e2970a9e6c9427d98e673ff') in 0.012209 seconds 
+  Import took 0.014406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_07_Snow_Atlas_m .png
+  artifactKey: Guid(f48d1f2814dada74eaaaf616146e5b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_07_Snow_Atlas_m .png using Guid(f48d1f2814dada74eaaaf616146e5b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3620fd9159c79f2d8801ca6321ff2a8f') in 0.011015 seconds 
+  Import took 0.013465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_08_Atlas.png
+  artifactKey: Guid(a32ba7988074e5a4e93b37c3c670566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_08_Atlas.png using Guid(a32ba7988074e5a4e93b37c3c670566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c158e05ef8d73738e0313079b57ab032') in 0.012116 seconds 
+  Import took 0.014183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_fir_bark_01_N.tga
+  artifactKey: Guid(417896788875ec342b0909ce3a419dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_fir_bark_01_N.tga using Guid(417896788875ec342b0909ce3a419dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2719ee62f8a07d5d5925bbc51a6fa03') in 0.022111 seconds 
+  Import took 0.024334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_03_MT_AO_G.tga
+  artifactKey: Guid(bf89248035263c94694dd1e70f0541c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_03_MT_AO_G.tga using Guid(bf89248035263c94694dd1e70f0541c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8990d3ba10ea10cac947e1d1751defd2') in 0.013753 seconds 
+  Import took 0.016312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_04_N.tga
+  artifactKey: Guid(06e074d9ee775c444beed60a778f54b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_04_N.tga using Guid(06e074d9ee775c444beed60a778f54b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692c51a5a4267015440ed2d1987f1fdc') in 0.015325 seconds 
+  Import took 0.017716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_02_MT_AO_G.tga
+  artifactKey: Guid(8ef26ccb990815d4998b44b2c25f6e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_02_MT_AO_G.tga using Guid(8ef26ccb990815d4998b44b2c25f6e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3489e11424c3ca756520cf388913cde') in 0.018488 seconds 
+  Import took 0.020467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_03_N.tga
+  artifactKey: Guid(a8193b9b445b5f24aa98b2db744696a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_03_N.tga using Guid(a8193b9b445b5f24aa98b2db744696a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec156817ae6132e5d4005547cfa043e') in 0.013798 seconds 
+  Import took 0.015990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_02_N.tga
+  artifactKey: Guid(81d2843cc8b002f4e98844afa4ff9d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_02_N.tga using Guid(81d2843cc8b002f4e98844afa4ff9d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e67a5eb1b7e545192cee99eb244840c') in 0.020975 seconds 
+  Import took 0.023211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_03_BC.tga
+  artifactKey: Guid(8b14f35122d3c47448f7fca2a3df85fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_03_BC.tga using Guid(8b14f35122d3c47448f7fca2a3df85fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45c219065ede95f1a58fe58c6cc45e2') in 0.013346 seconds 
+  Import took 0.015650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_04_BC.tga
+  artifactKey: Guid(4e207d5264b57fc409d49676b0040035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_04_BC.tga using Guid(4e207d5264b57fc409d49676b0040035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07ba7d2e082d4ce889bed4a8a4ddd67') in 0.012109 seconds 
+  Import took 0.014126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_01_MT_AO_G.tga
+  artifactKey: Guid(531b7456a7a02f8429c8c96a039f966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_01_MT_AO_G.tga using Guid(531b7456a7a02f8429c8c96a039f966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43d55d6da2595cf61557e0985381a0d') in 0.015461 seconds 
+  Import took 0.017503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_08_Atlas_T.png
+  artifactKey: Guid(5f8a4eae66948874090e10284bd25237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_08_Atlas_T.png using Guid(5f8a4eae66948874090e10284bd25237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c097a90d503c5e541bd413105022abd9') in 0.011104 seconds 
+  Import took 0.013502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_05_BC.tga
+  artifactKey: Guid(29a8c403c9e67a44bab189772c20970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_05_BC.tga using Guid(29a8c403c9e67a44bab189772c20970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f805d68baadec74892e86beaef0b9bdc') in 0.012364 seconds 
+  Import took 0.014684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_08_Snow_Atlas.png
+  artifactKey: Guid(a8829cf5ef0fc65438aea3fc60c07458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_08_Snow_Atlas.png using Guid(a8829cf5ef0fc65438aea3fc60c07458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119a0948ecc9fbb2c1cdaa05198ee043') in 0.011681 seconds 
+  Import took 0.014022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_04_MT_AO_G.tga
+  artifactKey: Guid(5f773d17eab7ad546bbb77bd6f0fe3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_04_MT_AO_G.tga using Guid(5f773d17eab7ad546bbb77bd6f0fe3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eda6e342ce1eacaa471688b50a0ac22') in 0.014477 seconds 
+  Import took 0.016754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_02_BC.tga
+  artifactKey: Guid(525c7f9f4e075fe4993c176cd10e7a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_02_BC.tga using Guid(525c7f9f4e075fe4993c176cd10e7a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeb537aeeaa23ad5a6b5d61308c75db') in 0.013211 seconds 
+  Import took 0.015764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_08_Snow_Atlas_m .png
+  artifactKey: Guid(47649f65419ac604aa522db0e08784ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_08_Snow_Atlas_m .png using Guid(47649f65419ac604aa522db0e08784ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa6109009ca304b6c499ea6e123ac74') in 0.011740 seconds 
+  Import took 0.014250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096702 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_05_MT_AO_G.tga
+  artifactKey: Guid(2c5baef36af04d640b18e0fcb941f333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_05_MT_AO_G.tga using Guid(2c5baef36af04d640b18e0fcb941f333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0733436b17b5af7d78e17bfd3fb803d') in 0.012435 seconds 
+  Import took 0.015255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_05_N_LOG.tga
+  artifactKey: Guid(978bcfdfca5e3df41867ad2a5f5d4635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_05_N_LOG.tga using Guid(978bcfdfca5e3df41867ad2a5f5d4635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc33871a7b8c51f924a5299250325dd') in 0.012350 seconds 
+  Import took 0.014567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_07_MT_AO_G.tga
+  artifactKey: Guid(359e01bab799fb5448b08f1275496c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_07_MT_AO_G.tga using Guid(359e01bab799fb5448b08f1275496c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d07af579879253acd32219dd967636d') in 0.013818 seconds 
+  Import took 0.016417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_06_BC.tga
+  artifactKey: Guid(c6bd4f936050748448e190ad994a6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_06_BC.tga using Guid(c6bd4f936050748448e190ad994a6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1912e82927b9227dedbace3f500ede45') in 0.012096 seconds 
+  Import took 0.014601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_01_MT_AO_G.tga
+  artifactKey: Guid(7996a413db5bc8b4dbd79bb5d30238a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_01_MT_AO_G.tga using Guid(7996a413db5bc8b4dbd79bb5d30238a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276efa3854785e6c7067ac8b6d8849c0') in 0.015519 seconds 
+  Import took 0.017611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_06_N.tga
+  artifactKey: Guid(fe583f89e99d2324b84cad4c39c465a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_06_N.tga using Guid(fe583f89e99d2324b84cad4c39c465a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ea0b239425c6c3ce3ca1c66b007ec5') in 0.011889 seconds 
+  Import took 0.013947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_07_BC.tga
+  artifactKey: Guid(1571997bb070b2844af30773b18bbd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_07_BC.tga using Guid(1571997bb070b2844af30773b18bbd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4097b62c71b86084a03d9c2e7aad4347') in 0.014597 seconds 
+  Import took 0.017011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_02_BC.tga
+  artifactKey: Guid(5ed6a8bff1f911848b5a73c49f508594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_02_BC.tga using Guid(5ed6a8bff1f911848b5a73c49f508594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930960eb7d47ebf56e339294e0e960b0') in 0.014252 seconds 
+  Import took 0.016351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_07_MT_AO_G.tga
+  artifactKey: Guid(54778b2623705ee468ef980e69118c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_07_MT_AO_G.tga using Guid(54778b2623705ee468ef980e69118c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6a20227bef29a9bc56f24e046e0ac9') in 0.013988 seconds 
+  Import took 0.016192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_04_N.tga
+  artifactKey: Guid(e6b880f242ee4bc43a11b513307bedef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_04_N.tga using Guid(e6b880f242ee4bc43a11b513307bedef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52be3a9d7c891ae704196e10e4e55b4') in 0.013159 seconds 
+  Import took 0.015252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_03_N.tga
+  artifactKey: Guid(75f0c6d9d0f40854aa878d95b15beed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_03_N.tga using Guid(75f0c6d9d0f40854aa878d95b15beed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29a484867a324cf43322ea58957214e') in 0.014618 seconds 
+  Import took 0.017013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_leaves_N.TGA
+  artifactKey: Guid(307bf4af402c5674e993cb258ec621e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_leaves_N.TGA using Guid(307bf4af402c5674e993cb258ec621e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c19817c0888c6e4d15c0bd7b15a497') in 0.030384 seconds 
+  Import took 0.033515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_07_N.tga
+  artifactKey: Guid(e8f963163a629b6478acae860d935b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_07_N.tga using Guid(e8f963163a629b6478acae860d935b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75d5ebae178395377f865777996987f') in 0.013376 seconds 
+  Import took 0.016103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_05_BC.tga
+  artifactKey: Guid(22dddf76473cbf64e87d57f5a26a3237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_05_BC.tga using Guid(22dddf76473cbf64e87d57f5a26a3237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7f80c42153826df05caf6c822d4fbc') in 0.013187 seconds 
+  Import took 0.015561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_02_MT_AO_G.tga
+  artifactKey: Guid(e5717c95a148bce4eb555afc4f8839d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_02_MT_AO_G.tga using Guid(e5717c95a148bce4eb555afc4f8839d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73700c3bf6b7de1959111285b3bc9517') in 0.015021 seconds 
+  Import took 0.017077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_03_MT_AO_G.tga
+  artifactKey: Guid(08bacb25cfd059a46a0fc80f944de1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_03_MT_AO_G.tga using Guid(08bacb25cfd059a46a0fc80f944de1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1314768efc6a28b213cb9e3f70d934b2') in 0.013407 seconds 
+  Import took 0.015637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_06_BC.tga
+  artifactKey: Guid(ee18c536c33633b4384f7d99876bf03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_06_BC.tga using Guid(ee18c536c33633b4384f7d99876bf03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b14e08325eead440142c74b2588e26') in 0.011963 seconds 
+  Import took 0.014401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_06_N.tga
+  artifactKey: Guid(185a425b0d271584189f1262ec793822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_06_N.tga using Guid(185a425b0d271584189f1262ec793822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280026a6769aa6581c265ce287ddbe53') in 0.012589 seconds 
+  Import took 0.014992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_05_N.tga
+  artifactKey: Guid(78ba023d788f0db4b81bf282e09e1b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_05_N.tga using Guid(78ba023d788f0db4b81bf282e09e1b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb32e9079332d662ba1c0f675fc0d86') in 0.012008 seconds 
+  Import took 0.014380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_05_N.tga
+  artifactKey: Guid(f84862bd8a91ab146a828fbd49967dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_05_N.tga using Guid(f84862bd8a91ab146a828fbd49967dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933425bc8f2ce482fc3c51a4518919b1') in 0.011465 seconds 
+  Import took 0.013682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_04_MT_AO_G.tga
+  artifactKey: Guid(b5b0072ff7f68b548b9bb2f562e75c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_04_MT_AO_G.tga using Guid(b5b0072ff7f68b548b9bb2f562e75c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a547c7bd9674e11f2eca8156098c038') in 0.013269 seconds 
+  Import took 0.015802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_03_BC.tga
+  artifactKey: Guid(5e304e814a7106b43bba562ccc4d30ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_03_BC.tga using Guid(5e304e814a7106b43bba562ccc4d30ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaa82cd028b0496ac00ada8b2e4afbc') in 0.013458 seconds 
+  Import took 0.015768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_07_N.tga
+  artifactKey: Guid(ec9a1d52edcfd8a48826549f9b21ddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_07_N.tga using Guid(ec9a1d52edcfd8a48826549f9b21ddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d97dd542334ed0573db6f2e3f59ba6') in 0.012855 seconds 
+  Import took 0.014972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_06_MT_AO_G.tga
+  artifactKey: Guid(8116f2868fc4f84449a83bc38a7d190b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_06_MT_AO_G.tga using Guid(8116f2868fc4f84449a83bc38a7d190b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7bebcd990c7f58ba761d37823073e9') in 0.011609 seconds 
+  Import took 0.014021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_06_MT_AO_G.tga
+  artifactKey: Guid(5ab073edd0c405241b5acb1e0f781dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_06_MT_AO_G.tga using Guid(5ab073edd0c405241b5acb1e0f781dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e295cf676f504d537d5a420da51699f') in 0.012400 seconds 
+  Import took 0.014530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_snow_leaves_BC_T.TGA
+  artifactKey: Guid(756ffff443dff904e9b583b0bc370e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_snow_leaves_BC_T.TGA using Guid(756ffff443dff904e9b583b0bc370e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181d7a6712414fe4bdb728d0b82194b8') in 0.022969 seconds 
+  Import took 0.026427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_leaves_BC_T.TGA
+  artifactKey: Guid(dc4210dc3ffe4194ba341b9e1d7f865f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_leaves_BC_T.TGA using Guid(dc4210dc3ffe4194ba341b9e1d7f865f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38dee510392005afeed8361686f76c8') in 0.028531 seconds 
+  Import took 0.032208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_07_BC_mask.tga
+  artifactKey: Guid(0322efa54a182de48b69273a9ef35aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_07_BC_mask.tga using Guid(0322efa54a182de48b69273a9ef35aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f67a20c081aa8a0aea317fef43211e') in 0.014422 seconds 
+  Import took 0.017014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_05_MT_AO_G.tga
+  artifactKey: Guid(acb71e08ec1523e47b0ed325ba8e8148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_05_MT_AO_G.tga using Guid(acb71e08ec1523e47b0ed325ba8e8148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f962525eb243a786aa37cc93d4a944') in 0.011717 seconds 
+  Import took 0.014270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_04_BC.tga
+  artifactKey: Guid(7cfa275e8cbde724f844dcf87b83cb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_04_BC.tga using Guid(7cfa275e8cbde724f844dcf87b83cb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9b71228670552dd9b88bec1b660e26') in 0.013033 seconds 
+  Import took 0.015362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_leaves_MT_AO_G.tga
+  artifactKey: Guid(f39f6bc6ea266c048be3fb238b793654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_leaves_MT_AO_G.tga using Guid(f39f6bc6ea266c048be3fb238b793654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c85f1d4b2f6e615efd1dc310c7e2e5') in 0.023448 seconds 
+  Import took 0.026506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_02_N.tga
+  artifactKey: Guid(f18dea36eda76ff45bfa8319d81c29b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_02_N.tga using Guid(f18dea36eda76ff45bfa8319d81c29b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4c39e4c17aade5218b239480751d60') in 0.014697 seconds 
+  Import took 0.016959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_05_MT_R_AO_H.TGA
+  artifactKey: Guid(c8453a6b19a0ca2429d1116ffee32c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_05_MT_R_AO_H.TGA using Guid(c8453a6b19a0ca2429d1116ffee32c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9053f53d4008139c1bfd43b6af0f6199') in 0.012249 seconds 
+  Import took 0.014265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_01_N.tga
+  artifactKey: Guid(81bf15777d4758a469a7f93aabb307f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_01_N.tga using Guid(81bf15777d4758a469a7f93aabb307f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399c01964926eadceb46917fdadd2bd2') in 0.015829 seconds 
+  Import took 0.017959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_01_BC.tga
+  artifactKey: Guid(6acb45e58689664439918d6155dd8503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_Fir_bark_snowy_01_BC.tga using Guid(6acb45e58689664439918d6155dd8503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8f3e86093073c16e8c92aa086220e0') in 0.015244 seconds 
+  Import took 0.017843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_fir_bark_05_MT_AO_G_LOG.tga
+  artifactKey: Guid(046cc94bc60bcd84db4051b6e2c02e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Textures/T_fir_bark_05_MT_AO_G_LOG.tga using Guid(046cc94bc60bcd84db4051b6e2c02e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0237b3ce6ce505cb10b0bd8420537f') in 0.012207 seconds 
+  Import took 0.014685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.572323 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/test terrain 2.asset
+  artifactKey: Guid(47977ffdff93d5c48bde7e4c4cbc9f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/test terrain 2.asset using Guid(47977ffdff93d5c48bde7e4c4cbc9f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a559d10c128c93771af4a896bf4a7b3f') in 0.036726 seconds 
+  Import took 0.040124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/test terrain 3.asset
+  artifactKey: Guid(be19c61e7ce02f149b380816af1457bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/test terrain 3.asset using Guid(be19c61e7ce02f149b380816af1457bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9bbbadb24f95d1b296719dc780a6d3') in 0.030801 seconds 
+  Import took 0.033712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/test terrain.asset
+  artifactKey: Guid(27a73ea8eb810d14698243026d65eb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Demo/test terrain.asset using Guid(27a73ea8eb810d14698243026d65eb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ceb5237a7398a31a8743617347124b6') in 0.025001 seconds 
+  Import took 0.028317 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Domain Reload Profiling:
+	ReloadAssembly (778ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (627ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2010.
+Total: 2.531800 ms (FindLiveObjects: 0.156700 ms CreateObjectMapping: 0.034100 ms MarkObjects: 2.318300 ms  DeleteObjects: 0.020900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 30.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1349ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1136ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (410ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (396ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2172.
+Total: 3.910900 ms (FindLiveObjects: 0.176600 ms CreateObjectMapping: 0.037800 ms MarkObjects: 2.519400 ms  DeleteObjects: 1.175700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2169.485076 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials
+  artifactKey: Guid(7243407974094e444a5801824c2afe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials using Guid(7243407974094e444a5801824c2afe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a07d0c37f98cb3f5c016d6675f01fbc') in 0.010704 seconds 
+  Import took 0.013874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069522 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Background Snow.mat
+  artifactKey: Guid(c630cad73e356af47beabf19bc42839c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Background Snow.mat using Guid(c630cad73e356af47beabf19bc42839c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a106c73b9bd7ca50d62b875c5b5b8625') in 0.087429 seconds 
+  Import took 0.090348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_02_Cross Snow.mat
+  artifactKey: Guid(daebbcc265340d746802f04f4acd0193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_02_Cross Snow.mat using Guid(daebbcc265340d746802f04f4acd0193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6a2d7d4879ac71099bd895d2014a38') in 0.019334 seconds 
+  Import took 0.021833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_06_Static_Snow.mat
+  artifactKey: Guid(06793a799c6f5154dbf6e2954d0adde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_06_Static_Snow.mat using Guid(06793a799c6f5154dbf6e2954d0adde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c151f1119a2b9a2722ca5119cbc49858') in 0.018335 seconds 
+  Import took 0.021343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_01_Cross Snow_Static.mat
+  artifactKey: Guid(d2b8efe20b6c0ec4083df2ed8ead3d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_01_Cross Snow_Static.mat using Guid(d2b8efe20b6c0ec4083df2ed8ead3d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c12986e63a3a31bd15b274b5814131') in 0.117425 seconds 
+  Import took 0.119982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_04_Cross Snow_Static.mat
+  artifactKey: Guid(47d0c8622fc4ed242bbd0a1785ce4c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_04_Cross Snow_Static.mat using Guid(47d0c8622fc4ed242bbd0a1785ce4c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80b48d5f23934be6da0e043f56fcb23') in 0.015482 seconds 
+  Import took 0.017741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_07.mat
+  artifactKey: Guid(8a7b2e27ec396a7419db9e68470afce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_07.mat using Guid(8a7b2e27ec396a7419db9e68470afce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc06fce90683158fff4764043a16cfb') in 0.036212 seconds 
+  Import took 0.039658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_Static_Snow.mat
+  artifactKey: Guid(7e9bcd88801463c4ebcaa33bce818267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_Static_Snow.mat using Guid(7e9bcd88801463c4ebcaa33bce818267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5636c56e761a47483c8193092c21773') in 0.029907 seconds 
+  Import took 0.033411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_07_Static_Snow.mat
+  artifactKey: Guid(5f4f8408a7f1054418e7909d076d78f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_07_Static_Snow.mat using Guid(5f4f8408a7f1054418e7909d076d78f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2436e651098258a7131a3a3d4f432160') in 0.019405 seconds 
+  Import took 0.022560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_01_06.mat
+  artifactKey: Guid(ae95c5316e09d6341866e8b97baf7e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_01_06.mat using Guid(ae95c5316e09d6341866e8b97baf7e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9191f35e68d1a3b22068f82cee63d185') in 0.029699 seconds 
+  Import took 0.033722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_01_06_Snow.mat
+  artifactKey: Guid(ebaa8c7577338f34399b7fd0a654988f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_01_06_Snow.mat using Guid(ebaa8c7577338f34399b7fd0a654988f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b949d44744d0cc4be0609f6901bf7767') in 0.044654 seconds 
+  Import took 0.048643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_06_Snow.mat
+  artifactKey: Guid(0eec5e645ff38d544a7699fdcd731f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_06_Snow.mat using Guid(0eec5e645ff38d544a7699fdcd731f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1497dd0c5e6e710739fb3492d34a311c') in 0.024413 seconds 
+  Import took 0.027154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_05_Snow.mat
+  artifactKey: Guid(481337e968b820741b97f1f2a47a9375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_05_Snow.mat using Guid(481337e968b820741b97f1f2a47a9375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36cc97cad10ca545cdc7c52b957f640') in 0.030926 seconds 
+  Import took 0.034720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Leaves Snow.mat
+  artifactKey: Guid(8cb1e74ba1c752c458507fe62bb9005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Leaves Snow.mat using Guid(8cb1e74ba1c752c458507fe62bb9005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867fd78a40b6fa36002be6d6994b0f05') in 0.063565 seconds 
+  Import took 0.069322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_01_06_Static_Snow.mat
+  artifactKey: Guid(678f8840edcfd4548aa513853cd0fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_01_06_Static_Snow.mat using Guid(678f8840edcfd4548aa513853cd0fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefc24bf5990c5f153f8272f67902d31') in 0.033320 seconds 
+  Import took 0.036815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_04.mat
+  artifactKey: Guid(f4db801128e706a47830ac93ae5d3f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_04.mat using Guid(f4db801128e706a47830ac93ae5d3f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d6080d0d19fe8b5573264646813afa') in 0.023281 seconds 
+  Import took 0.025983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_04_Snow.mat
+  artifactKey: Guid(225af89b8b124aa4380fd815f0d5b523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_04_Snow.mat using Guid(225af89b8b124aa4380fd815f0d5b523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0dcb7783f199ad64eb540e16617fc2') in 0.029136 seconds 
+  Import took 0.032662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_07.mat
+  artifactKey: Guid(524f9da96b60b2c41a9059a32fe9fb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_07.mat using Guid(524f9da96b60b2c41a9059a32fe9fb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f874d797ce8ec46ebe4f1c9f50fd0fda') in 0.017464 seconds 
+  Import took 0.020570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_04_Cross Snow.mat
+  artifactKey: Guid(bdff69f749f558c4ebec65aaa1a3be65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_04_Cross Snow.mat using Guid(bdff69f749f558c4ebec65aaa1a3be65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7cae3f06a747095aba26aec4584dfd') in 0.016744 seconds 
+  Import took 0.019363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_01_Cross Snow.mat
+  artifactKey: Guid(43b80dd1439585543a28c52f6d2bbe2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_01_Cross Snow.mat using Guid(43b80dd1439585543a28c52f6d2bbe2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b790fe4244c3065808e63bd9c8af3e') in 0.016855 seconds 
+  Import took 0.019037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_07_Static_Snow.mat
+  artifactKey: Guid(2c36ce446dab4024182668416465e147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_07_Static_Snow.mat using Guid(2c36ce446dab4024182668416465e147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf7bf4b4759753e45abdb311524c079') in 0.030727 seconds 
+  Import took 0.034382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_05_Cross Snow.mat
+  artifactKey: Guid(2b8ed1e21fefa914cb99dcf9787c531c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_05_Cross Snow.mat using Guid(2b8ed1e21fefa914cb99dcf9787c531c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d46e9f6f967509095edc8cbe163ee3') in 0.016553 seconds 
+  Import took 0.018809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Leaves Dead Snow Static.mat
+  artifactKey: Guid(5132104b2903f4947991cfa6fc36d3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Leaves Dead Snow Static.mat using Guid(5132104b2903f4947991cfa6fc36d3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0ee3a0fc06a687701b98b02c02cf31') in 0.049304 seconds 
+  Import took 0.054689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Leaves Dead.mat
+  artifactKey: Guid(c5322629e2ca36d4d843ff3999f276bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Leaves Dead.mat using Guid(c5322629e2ca36d4d843ff3999f276bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907368a5f4d76ed07ad8563f3752b528') in 0.056497 seconds 
+  Import took 0.062150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_01_Static_Snow.mat
+  artifactKey: Guid(b2dfba5332b9c454ba8b04da18dc155a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_01_Static_Snow.mat using Guid(b2dfba5332b9c454ba8b04da18dc155a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3da0eead50e4765cec1491a3fbb24d') in 0.028728 seconds 
+  Import took 0.033555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_05.mat
+  artifactKey: Guid(6a8751541f226ce428b817ee7d8764ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_05.mat using Guid(6a8751541f226ce428b817ee7d8764ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4517a47c11d30e4fd3fe9945485af911') in 0.025842 seconds 
+  Import took 0.028560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_06_Cross.mat
+  artifactKey: Guid(aec0c3479a56e694e94e8a408d946072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_06_Cross.mat using Guid(aec0c3479a56e694e94e8a408d946072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792d43b939a6aeaaf087051f0fbed80c') in 0.014772 seconds 
+  Import took 0.016932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_01.mat
+  artifactKey: Guid(1cfdb7943d3947a42b25af13ecd82f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_01.mat using Guid(1cfdb7943d3947a42b25af13ecd82f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aeb0053aa7c7fd13f2f6b6275b4ffe0') in 0.027659 seconds 
+  Import took 0.030902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_04_02.mat
+  artifactKey: Guid(017dff6076d9eda4a822184fac9b7ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_04_02.mat using Guid(017dff6076d9eda4a822184fac9b7ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad72ce68e43cb15a5583254c6ccc244f') in 0.044528 seconds 
+  Import took 0.048662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_06.mat
+  artifactKey: Guid(62f35bddc1d1e7e419240c0199a85f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_06.mat using Guid(62f35bddc1d1e7e419240c0199a85f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be805d7adbd69fb7c7b9d06ebc9c16b9') in 0.015043 seconds 
+  Import took 0.017651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_05_Static_Snow.mat
+  artifactKey: Guid(67eeeb73cf423d04b8c1ce3e781cc76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_05_Static_Snow.mat using Guid(67eeeb73cf423d04b8c1ce3e781cc76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f981242b34f3bd2ed7304034037860') in 0.022482 seconds 
+  Import took 0.025553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_04_02_Snow.mat
+  artifactKey: Guid(0bd0a8321bc45434fb5c03cc6973000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_04_02_Snow.mat using Guid(0bd0a8321bc45434fb5c03cc6973000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0832c7eda6bb6b8aef62ee5bf10f2f7b') in 0.046277 seconds 
+  Import took 0.052923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_01_Cross.mat
+  artifactKey: Guid(3e353751833795047bbb4250ef1ad64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_01_Cross.mat using Guid(3e353751833795047bbb4250ef1ad64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be57dff73473c2c32a6bb47e4b6a9bb0') in 0.014254 seconds 
+  Import took 0.017185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_07_Cross.mat
+  artifactKey: Guid(92a942861fb3b25468471a6768b93a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_07_Cross.mat using Guid(92a942861fb3b25468471a6768b93a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52aa9f1c3507665a1585ee85ef3ba3f') in 0.014997 seconds 
+  Import took 0.017691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_08_Cross Snow_Static.mat
+  artifactKey: Guid(2b3f09131b5598c4ebe92e977be7771f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_08_Cross Snow_Static.mat using Guid(2b3f09131b5598c4ebe92e977be7771f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6700cd8ace13a94c56c03bd2401530e3') in 0.014578 seconds 
+  Import took 0.017111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Leaves Dead Snow.mat
+  artifactKey: Guid(56fa71e738b62e34c8e2399b8800ee55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Leaves Dead Snow.mat using Guid(56fa71e738b62e34c8e2399b8800ee55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e14436ea7f09e0542dcf4f293ca963d') in 0.054583 seconds 
+  Import took 0.060269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_07_Snow.mat
+  artifactKey: Guid(b1b24eabd02521149a288c7eb33ceeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_07_Snow.mat using Guid(b1b24eabd02521149a288c7eb33ceeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31f6a3a0a4bcd79a56f230840cedc5f') in 0.038435 seconds 
+  Import took 0.042442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_03_Cross Snow_Static.mat
+  artifactKey: Guid(ebe47457be5b80a4dac0c3fc8c63649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_03_Cross Snow_Static.mat using Guid(ebe47457be5b80a4dac0c3fc8c63649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04b509099f043a7f5e20eba776d347a') in 0.016098 seconds 
+  Import took 0.018374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_03_Snow.mat
+  artifactKey: Guid(c1d969598f7176b4d947a8389b5a15a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_03_Snow.mat using Guid(c1d969598f7176b4d947a8389b5a15a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc610a555e387ab995815b4addcbc40') in 0.044416 seconds 
+  Import took 0.050524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_04_02_Static_Snow.mat
+  artifactKey: Guid(9a66ba9b05d2e794e894f8e25036b66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_04_02_Static_Snow.mat using Guid(9a66ba9b05d2e794e894f8e25036b66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd23019c9af52009a74839fa8de9e30') in 0.038529 seconds 
+  Import took 0.042842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_07_Cross Snow_Static.mat
+  artifactKey: Guid(6b33cde5f37fe1c4386749fb83bedf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_07_Cross Snow_Static.mat using Guid(6b33cde5f37fe1c4386749fb83bedf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dc6967daa39cbf7b5661d5746000d2') in 0.014120 seconds 
+  Import took 0.016335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02.mat
+  artifactKey: Guid(e2234b4e7bc1d0c488e3f02b17006fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02.mat using Guid(e2234b4e7bc1d0c488e3f02b17006fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80828c96312d1251b6179013cedc6ea0') in 0.028827 seconds 
+  Import took 0.032120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Leaves.mat
+  artifactKey: Guid(b3e91bf8c72c1ec4b814459f1e1367ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Leaves.mat using Guid(b3e91bf8c72c1ec4b814459f1e1367ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f89e89dcaecc373a5e9598eb977fcf') in 0.047210 seconds 
+  Import took 0.053004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_03_Static_Snow.mat
+  artifactKey: Guid(09b0a79c132d834499b2a123ad446657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_03_Static_Snow.mat using Guid(09b0a79c132d834499b2a123ad446657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6574c9fcac72f94cafa4db348999b472') in 0.035897 seconds 
+  Import took 0.041374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_03.mat
+  artifactKey: Guid(1199e49be7a27ca4ea648055be6f86be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_03.mat using Guid(1199e49be7a27ca4ea648055be6f86be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6755aa9834d676666e6311f3472917e6') in 0.043170 seconds 
+  Import took 0.047861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Leaves Snow Static.mat
+  artifactKey: Guid(4fe45c019e035fc4389452081d5b908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Leaves Snow Static.mat using Guid(4fe45c019e035fc4389452081d5b908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6752155293bc25c7a2971aef09969be1') in 0.047737 seconds 
+  Import took 0.053813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_02_Cross.mat
+  artifactKey: Guid(d048f6f77a0c80e4fba79bcdaefe13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_02_Cross.mat using Guid(d048f6f77a0c80e4fba79bcdaefe13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c8893d38d533e9254cd7e4dca24a0c') in 0.013801 seconds 
+  Import took 0.016625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_03_Cross.mat
+  artifactKey: Guid(0baa2096541b30040836b1e15e58bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_03_Cross.mat using Guid(0baa2096541b30040836b1e15e58bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43559f9b3ba128a7adf11ebadac6a44') in 0.016649 seconds 
+  Import took 0.019091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_01_Snow.mat
+  artifactKey: Guid(b5a4f8552189de34cab395c942920474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_01_Snow.mat using Guid(b5a4f8552189de34cab395c942920474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93eb139ce986f18083cd01edb73860c8') in 0.035062 seconds 
+  Import took 0.039188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_07_Snow.mat
+  artifactKey: Guid(9147db196ca43c44eae12ec28f60e8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_07_Snow.mat using Guid(9147db196ca43c44eae12ec28f60e8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b31b36ee9d1aa8a4b14f8d0e2486be4') in 0.042734 seconds 
+  Import took 0.046863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_02_Cross Snow_Static.mat
+  artifactKey: Guid(0f957d7277f516b45a9b35d5865611d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_02_Cross Snow_Static.mat using Guid(0f957d7277f516b45a9b35d5865611d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3924973dc1e8bf4e58ba9a31e2a891ee') in 0.013928 seconds 
+  Import took 0.016555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_06_Cross Snow_Static.mat
+  artifactKey: Guid(dfe58c12b6d49e345bd32706e171d2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_06_Cross Snow_Static.mat using Guid(dfe58c12b6d49e345bd32706e171d2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00827467fed680d8d472da5bfc4f67e2') in 0.016094 seconds 
+  Import took 0.018692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_08_Cross Snow.mat
+  artifactKey: Guid(d746d258daa8dc34bbf31e2cb9e749b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_08_Cross Snow.mat using Guid(d746d258daa8dc34bbf31e2cb9e749b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487c65d0f8505b22783a0ddfc11bd894') in 0.016915 seconds 
+  Import took 0.019131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_06_Cross Snow.mat
+  artifactKey: Guid(a62c5d7d567d90d45bb8a5ed016fca44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_06_Cross Snow.mat using Guid(a62c5d7d567d90d45bb8a5ed016fca44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629bdf0f64db0d04ad73fcd14b737003') in 0.017912 seconds 
+  Import took 0.020594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_08_Cross.mat
+  artifactKey: Guid(07108e1e3917657458ad768f2b3dacec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_08_Cross.mat using Guid(07108e1e3917657458ad768f2b3dacec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c590fa5267b1e2f5a608f380da801982') in 0.013772 seconds 
+  Import took 0.016011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_04_Static_Snow.mat
+  artifactKey: Guid(16c024949b9f4274e90dd3b6223055e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_04_Static_Snow.mat using Guid(16c024949b9f4274e90dd3b6223055e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16722cf4ed4fd44602b6d6495010f50f') in 0.023745 seconds 
+  Import took 0.026466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_Snow.mat
+  artifactKey: Guid(43ef579d61ec14841aefa15ccb07cc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_02_Snow.mat using Guid(43ef579d61ec14841aefa15ccb07cc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9df15babee1f8e2d12fa090d1a9753') in 0.035007 seconds 
+  Import took 0.039562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_05_Cross.mat
+  artifactKey: Guid(35592617f47da9c4faccd85d5562994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_05_Cross.mat using Guid(35592617f47da9c4faccd85d5562994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbca8b287a2b5bf86821f2a187706a24') in 0.015920 seconds 
+  Import took 0.018288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_03_01_Snow.mat
+  artifactKey: Guid(5f5e39e00839a9e4881a6f056e4c3819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_03_01_Snow.mat using Guid(5f5e39e00839a9e4881a6f056e4c3819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475391ca6fcac926502af58facd8be73') in 0.042860 seconds 
+  Import took 0.049621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_03_01_Static_Snow.mat
+  artifactKey: Guid(530faef5e37e47c4f9160685ff61acca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_03_01_Static_Snow.mat using Guid(530faef5e37e47c4f9160685ff61acca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf85fd5d38f14955b4d9c958e0b6266') in 0.037271 seconds 
+  Import took 0.041696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_05_Cross Snow_Static.mat
+  artifactKey: Guid(9c28c6d72ef153c40aa910dbe6a2dcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_05_Cross Snow_Static.mat using Guid(9c28c6d72ef153c40aa910dbe6a2dcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0005a13fbaba1e46cca19f18b9cf2f') in 0.014618 seconds 
+  Import took 0.016854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_03_Cross Snow.mat
+  artifactKey: Guid(0faeb572147fef54084d37ad7b281268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_03_Cross Snow.mat using Guid(0faeb572147fef54084d37ad7b281268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5d4eae83093998172fa89299596337') in 0.020185 seconds 
+  Import took 0.022513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Background.mat
+  artifactKey: Guid(29d401d724317aa4e9b9cd95e1e7aaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Background.mat using Guid(29d401d724317aa4e9b9cd95e1e7aaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbe0840c374b1cd4fa975f31e74bda7') in 0.015483 seconds 
+  Import took 0.018112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_04_Cross.mat
+  artifactKey: Guid(d4b19da55f337bd46a8a3e80ea2734f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_04_Cross.mat using Guid(d4b19da55f337bd46a8a3e80ea2734f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e57962f6eae3f9f2ff6580dbb9131a') in 0.013838 seconds 
+  Import took 0.016142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_03_01.mat
+  artifactKey: Guid(b050097e7ba084649bf28f924b173cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_Bark_03_01.mat using Guid(b050097e7ba084649bf28f924b173cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e750947f419b5fa6e96f1705e7115343') in 0.034194 seconds 
+  Import took 0.038212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_07_Cross Snow.mat
+  artifactKey: Guid(6b90187359b925f439a78003dfe6a120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Dynamic Nature - Mountain Tree Pack/Models/Materials/M_Fir_07_Cross Snow.mat using Guid(6b90187359b925f439a78003dfe6a120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cc2e16328a8aced8427f83696facad') in 0.018439 seconds 
+  Import took 0.020960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.659334 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(4ffcef206f903ec45b1e4bf3c5be6011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(4ffcef206f903ec45b1e4bf3c5be6011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f38df6c7d765a4c313f1448dfe90896') in 0.019504 seconds 
+  Import took 0.022444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 591.827248 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon02.brush
+  artifactKey: Guid(7ddc1e59f6e82cc4693b55b0badb4aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon02.brush using Guid(7ddc1e59f6e82cc4693b55b0badb4aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77a28b7fdc5049434fd77173bb3d63c') in 0.023034 seconds 
+  Import took 0.026040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.648887 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon01.brush
+  artifactKey: Guid(9b1536174e1306f4eb016fe953e5a678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon01.brush using Guid(9b1536174e1306f4eb016fe953e5a678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171686e809a19b703460f27ff28181e5') in 0.013267 seconds 
+  Import took 0.015930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.689724 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain01.brush
+  artifactKey: Guid(87bcc148df475664181f323cf3b45e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain01.brush using Guid(87bcc148df475664181f323cf3b45e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ced3db4cc3cf783dcd00f598740f5c7') in 0.016930 seconds 
+  Import took 0.019541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.234025 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridgeedge01.brush
+  artifactKey: Guid(b47c02079aebe594a94e62b833a0616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridgeedge01.brush using Guid(b47c02079aebe594a94e62b833a0616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9558707eac382a5f96eaf6cc7723b8') in 0.014148 seconds 
+  Import took 0.016909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.208704 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_rollinghills01.brush
+  artifactKey: Guid(9bcbad10823d47140bc0c90bfc339f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_rollinghills01.brush using Guid(9bcbad10823d47140bc0c90bfc339f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df10e0197e6c96ac5ccb5f3752dc4c8c') in 0.013482 seconds 
+  Import took 0.016350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.456822 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_softpeaks01.brush
+  artifactKey: Guid(7eae67bc3f75e02478ed0f5c2d4498cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_softpeaks01.brush using Guid(7eae67bc3f75e02478ed0f5c2d4498cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e47d1cd59a5395e58c37785fdf33a2') in 0.013777 seconds 
+  Import took 0.016391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.317379 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano01.brush
+  artifactKey: Guid(e5a2f11e9d7a4da4caf17b3e59800215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano01.brush using Guid(e5a2f11e9d7a4da4caf17b3e59800215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df254c0b897e18eb0d724ceaecc8d112') in 0.016474 seconds 
+  Import took 0.019037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.244101 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano02.brush
+  artifactKey: Guid(5bcc5a77fc677c24c98eb188064d3acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano02.brush using Guid(5bcc5a77fc677c24c98eb188064d3acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e534ea4892cb1dd54f00e95cf93997fc') in 0.016020 seconds 
+  Import took 0.018852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 833.322958 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(4ffcef206f903ec45b1e4bf3c5be6011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(4ffcef206f903ec45b1e4bf3c5be6011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d0219be926a040ebff98c595f01d0d') in 0.014714 seconds 
+  Import took 0.018022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2767.727791 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(e99343dc224e650409bf4aa904d93aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(e99343dc224e650409bf4aa904d93aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840a89295245ef5ef0615ca92d52fde8') in 0.008380 seconds 
+  Import took 0.011412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.864124 seconds.
+  path: Assets/Samples/Terrain Tools
+  artifactKey: Guid(0e3e427ddce542b4f8857982f6019002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools using Guid(0e3e427ddce542b4f8857982f6019002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510ea3ee1f27a3c8b04a4fe693cefe24') in 0.007548 seconds 
+  Import took 0.009983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.627197 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview
+  artifactKey: Guid(3808ab02487398745849c2aa47de64a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview using Guid(3808ab02487398745849c2aa47de64a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a256cca93e14502769a29e1013081ecf') in 0.007571 seconds 
+  Import took 0.010070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.533840 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets
+  artifactKey: Guid(1fd8d66966913614eb677497b8a91f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets using Guid(1fd8d66966913614eb677497b8a91f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83727912bbcdad624382ce81dfa20513') in 0.008174 seconds 
+  Import took 0.010782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.046379 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes
+  artifactKey: Guid(06d093db78f37314382766fde05acf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes using Guid(06d093db78f37314382766fde05acf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb7f568629ae9e0b00b6415f57e83eb') in 0.008193 seconds 
+  Import took 0.010686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090641 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/noise_soft.brush
+  artifactKey: Guid(cee96a2661edd1040b6f86ac79ab5fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/noise_soft.brush using Guid(cee96a2661edd1040b6f86ac79ab5fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb5585c4d41eda7a55143882cb66df5') in 0.017698 seconds 
+  Import took 0.020191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge02.brush
+  artifactKey: Guid(5203e2a4f3ccc3548bde5beb3ca4bdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge02.brush using Guid(5203e2a4f3ccc3548bde5beb3ca4bdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fcfe72246a80f47ca57c5887bdd2ee') in 0.018851 seconds 
+  Import took 0.021539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_erode01.brush
+  artifactKey: Guid(7ee3d567366c781458dc63f069654dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_erode01.brush using Guid(7ee3d567366c781458dc63f069654dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53717cd3a5daa14b4ad2155fc7f5d6f9') in 0.017056 seconds 
+  Import took 0.019632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_flatmountain01.brush
+  artifactKey: Guid(5ca44fb774755d14f93870431e58a1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_flatmountain01.brush using Guid(5ca44fb774755d14f93870431e58a1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5536a9b1f12f4ac3e0d7ad4d8debcd5d') in 0.016312 seconds 
+  Import took 0.018626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_island01.brush
+  artifactKey: Guid(52ed55fadd8d2b34cb0f9f08adb04a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_island01.brush using Guid(52ed55fadd8d2b34cb0f9f08adb04a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a9b201b135ade5cf267f0b0fbc9c2d') in 0.015968 seconds 
+  Import took 0.018161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge01.brush
+  artifactKey: Guid(776f9b3da89f9394cac9a53aab9a5eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge01.brush using Guid(776f9b3da89f9394cac9a53aab9a5eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8332bb8b66e4ed619fec20476368d92e') in 0.015833 seconds 
+  Import took 0.018060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_crackedground02.brush
+  artifactKey: Guid(61e8c4f14d0453448b7e510f7f96990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_crackedground02.brush using Guid(61e8c4f14d0453448b7e510f7f96990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0384d785a5b4302ae8094309612776') in 0.013176 seconds 
+  Import took 0.015730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge05.brush
+  artifactKey: Guid(014d61beb3975e849b26bc42fbf17b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge05.brush using Guid(014d61beb3975e849b26bc42fbf17b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a8bb44477050e16408529ee6b7cf70') in 0.017102 seconds 
+  Import took 0.019406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_crackedground01.brush
+  artifactKey: Guid(a27a2665c8aec334ba8bbba24ee0c827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_crackedground01.brush using Guid(a27a2665c8aec334ba8bbba24ee0c827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3b700a6452de9e6eb71bac4fd26665') in 0.021303 seconds 
+  Import took 0.023848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon03.brush
+  artifactKey: Guid(d4e29f095247ea040aabee8a6cb3b010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon03.brush using Guid(d4e29f095247ea040aabee8a6cb3b010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f1891df502f35399db9b3af98ad357') in 0.014484 seconds 
+  Import took 0.017110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau03.brush
+  artifactKey: Guid(387141d2bd04a10459d9a306ca45434f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau03.brush using Guid(387141d2bd04a10459d9a306ca45434f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677f95b6c27b2309b6662ad59e419c0d') in 0.013433 seconds 
+  Import took 0.015777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon05.brush
+  artifactKey: Guid(ceb297a70ecfb74479647a7e0e433265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon05.brush using Guid(ceb297a70ecfb74479647a7e0e433265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c4fa37e70081870e87f844bf920ecb') in 0.022578 seconds 
+  Import took 0.025187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge03.brush
+  artifactKey: Guid(7d08355cc5be1584f858af2f22f8bbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge03.brush using Guid(7d08355cc5be1584f858af2f22f8bbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1152b22ac4befe1913acbfec4b471f') in 0.018089 seconds 
+  Import took 0.020585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge06.brush
+  artifactKey: Guid(24a7eabe2ad91f84fbf3a7ecf7b532b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge06.brush using Guid(24a7eabe2ad91f84fbf3a7ecf7b532b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af6593de52e35331d53879b5ecd39fd') in 0.015666 seconds 
+  Import took 0.018346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain08.brush
+  artifactKey: Guid(f3ac69de155752e498f0f9864e41e7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain08.brush using Guid(f3ac69de155752e498f0f9864e41e7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdab0ced0a3db97e3f2e9a02151baec') in 0.016273 seconds 
+  Import took 0.018911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon04.brush
+  artifactKey: Guid(dc670a42db363de40a6e6d9f231404ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon04.brush using Guid(dc670a42db363de40a6e6d9f231404ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb31396ac0b6c0bb0917c841d33c823') in 0.015671 seconds 
+  Import took 0.018196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_erode02.brush
+  artifactKey: Guid(b4f1a8962849d1e418cbb0637143dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_erode02.brush using Guid(b4f1a8962849d1e418cbb0637143dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcd16560ee146c1f657de7a01575b5e') in 0.015870 seconds 
+  Import took 0.018481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain02.brush
+  artifactKey: Guid(8569f88df55a4b64b997e64b2aa69432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain02.brush using Guid(8569f88df55a4b64b997e64b2aa69432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079c20b57f4ef81528ea38e002b68ecf') in 0.015213 seconds 
+  Import took 0.017735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau02.brush
+  artifactKey: Guid(11e6706e84aaff345ac7f2478d9d88a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau02.brush using Guid(11e6706e84aaff345ac7f2478d9d88a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2440fbe58c670589a3e0f580fb619721') in 0.012495 seconds 
+  Import took 0.015026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain05.brush
+  artifactKey: Guid(c18cd5b317ff2af479fe5b47336cc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain05.brush using Guid(c18cd5b317ff2af479fe5b47336cc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0b2acab0ceb637a38fe37c422dcd3f') in 0.018021 seconds 
+  Import took 0.021206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau01.brush
+  artifactKey: Guid(bb325d04c0ca0dd4a85a78892caa83fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau01.brush using Guid(bb325d04c0ca0dd4a85a78892caa83fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83a5abeceab8a02e7e34e42c29abaa5') in 0.014851 seconds 
+  Import took 0.017530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/soft_round.brush
+  artifactKey: Guid(a757b66aa1cbcbe4595dd37a3729ba24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/soft_round.brush using Guid(a757b66aa1cbcbe4595dd37a3729ba24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e854478518457687cd52dca1c72aff5c') in 0.015055 seconds 
+  Import took 0.017875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain07.brush
+  artifactKey: Guid(6f360df90c5a57042ba4b09cb3249ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain07.brush using Guid(6f360df90c5a57042ba4b09cb3249ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf5e56774b59a156726d39c6e90d56a') in 0.016463 seconds 
+  Import took 0.019775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain06.brush
+  artifactKey: Guid(1f59549ee2c7eab4d833e1b9cd1bb76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain06.brush using Guid(1f59549ee2c7eab4d833e1b9cd1bb76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b147a1d6aaef8d127ad250b46031d8ab') in 0.015001 seconds 
+  Import took 0.017989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain04.brush
+  artifactKey: Guid(84399f7e9c8b199478532ded97f1ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain04.brush using Guid(84399f7e9c8b199478532ded97f1ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a9c48ec9c3096b3b0311ef27c2055f') in 0.017292 seconds 
+  Import took 0.019486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain03.brush
+  artifactKey: Guid(f11a285f166a0f6499471bc2b3deaefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain03.brush using Guid(f11a285f166a0f6499471bc2b3deaefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4cb1cbb074921b85faa6b86cf08d80') in 0.014808 seconds 
+  Import took 0.017063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge04.brush
+  artifactKey: Guid(913af1c64ea139348925340c09459a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge04.brush using Guid(913af1c64ea139348925340c09459a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c40370edaf002dd8b5f22c419533bb7') in 0.016668 seconds 
+  Import took 0.018883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.145653 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures
+  artifactKey: Guid(acfbac3344b07ed4f84ebf0c8828a729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures using Guid(acfbac3344b07ed4f84ebf0c8828a729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e6ed0ecd4b65882455e8d7e81510b9') in 0.007531 seconds 
+  Import took 0.009931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.026026 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers
+  artifactKey: Guid(8e20acebdea53ef48834fdda56653c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers using Guid(8e20acebdea53ef48834fdda56653c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5040c7f08ae02b605b843930805b24') in 0.007632 seconds 
+  Import took 0.010047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044139 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/dirt.terrainlayer
+  artifactKey: Guid(c25f012d8eaba684b9a392d71f427372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/dirt.terrainlayer using Guid(c25f012d8eaba684b9a392d71f427372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466271538b205e4ef84bcf6faeae064c') in 0.026090 seconds 
+  Import took 0.028851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/snow.terrainlayer
+  artifactKey: Guid(34a7124a250b6314f803cba5555e7faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/snow.terrainlayer using Guid(34a7124a250b6314f803cba5555e7faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cb9e8130df21d7165451daeafad5e6') in 0.015700 seconds 
+  Import took 0.018380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/moss.terrainlayer
+  artifactKey: Guid(56b2820651de357459e8d89d2b4f3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/moss.terrainlayer using Guid(56b2820651de357459e8d89d2b4f3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd52f63c08d34910ec8ab6035ba689e3') in 0.016016 seconds 
+  Import took 0.018213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/scree.terrainlayer
+  artifactKey: Guid(6a3097ee6a39c594e8c63dae726b2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/scree.terrainlayer using Guid(6a3097ee6a39c594e8c63dae726b2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602c901dd3ae23f9e448d6a8ca5cc317') in 0.013217 seconds 
+  Import took 0.015634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer
+  artifactKey: Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer using Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767bc8a60cf0a8bc666718793873dfe8') in 0.014975 seconds 
+  Import took 0.017233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/rock.terrainlayer
+  artifactKey: Guid(716937fe861ba6748bfd599e6802e70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/rock.terrainlayer using Guid(716937fe861ba6748bfd599e6802e70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46398fda0ee188c53e5e837f76f1835') in 0.012866 seconds 
+  Import took 0.015077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.186363 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif
+  artifactKey: Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif using Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf52615797939bbc9673af9ed75df73') in 0.036362 seconds 
+  Import took 0.038961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.235847 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_albedo.tif
+  artifactKey: Guid(43b54d39e0a4c4d47bef645abec127f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_albedo.tif using Guid(43b54d39e0a4c4d47bef645abec127f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ac9f3d0f056fe387986a04b4767f66') in 0.014032 seconds 
+  Import took 0.016688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.771210 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_normal.tif
+  artifactKey: Guid(67a70a78d678fb649b5c703cd7dc85c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_normal.tif using Guid(67a70a78d678fb649b5c703cd7dc85c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6256ce5f768699838c575292b3af463') in 0.017000 seconds 
+  Import took 0.019521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_mask.tif
+  artifactKey: Guid(ff77b812a1621e74694371cb173618ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_mask.tif using Guid(ff77b812a1621e74694371cb173618ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afa759cbcf8325af2c238b097117e52') in 0.012896 seconds 
+  Import took 0.015348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.048220 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_albedo.tif
+  artifactKey: Guid(f7dd726c93b8f17418ea3be3f6768909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_albedo.tif using Guid(f7dd726c93b8f17418ea3be3f6768909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac7d5a81372d364eb0a61941211f8e5') in 0.013687 seconds 
+  Import took 0.016471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.284511 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_normal.tif
+  artifactKey: Guid(f45c3bd09301cc64783afc31dfca026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_normal.tif using Guid(f45c3bd09301cc64783afc31dfca026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6dcabc64a9a64fc4d97034bcd5306e') in 0.014999 seconds 
+  Import took 0.017490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_mask.tif
+  artifactKey: Guid(44f7e6aa71506b041ac0a60db8868a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_mask.tif using Guid(44f7e6aa71506b041ac0a60db8868a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f5ead69370dfdaa0b3c5653124cc44') in 0.013280 seconds 
+  Import took 0.015655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1261.674442 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/moss.terrainlayer
+  artifactKey: Guid(56b2820651de357459e8d89d2b4f3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/moss.terrainlayer using Guid(56b2820651de357459e8d89d2b4f3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29925da94888c57a4fcaf953c1ee4ac3') in 0.016947 seconds 
+  Import took 0.019906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/rock.terrainlayer
+  artifactKey: Guid(716937fe861ba6748bfd599e6802e70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/rock.terrainlayer using Guid(716937fe861ba6748bfd599e6802e70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9896e2627135940861e17608537ab1') in 0.011401 seconds 
+  Import took 0.013675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.438925 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_albedo.tif
+  artifactKey: Guid(fcd3993703e7d804bb735613d2a5189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_albedo.tif using Guid(fcd3993703e7d804bb735613d2a5189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eed60a910cf4262729d3dba6a5d0300') in 0.013906 seconds 
+  Import took 0.016771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_mask.tif
+  artifactKey: Guid(e2a486d7d86a7e8469b15e7ae4d004f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_mask.tif using Guid(e2a486d7d86a7e8469b15e7ae4d004f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0130db8067057e3a20dda968b85ee4a') in 0.014893 seconds 
+  Import took 0.017253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/screen_normal.tif
+  artifactKey: Guid(703d1f74c69fc95498dcfd0afe8e1d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/screen_normal.tif using Guid(703d1f74c69fc95498dcfd0afe8e1d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0d2548c6fdbdc30b4a29e0c491dc52') in 0.015462 seconds 
+  Import took 0.017985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.327738 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_albedo.tif
+  artifactKey: Guid(6bcc65b7c6e3a0b448d7801bfc56842f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_albedo.tif using Guid(6bcc65b7c6e3a0b448d7801bfc56842f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a78acccc289b2c64909a166ce6f15d5') in 0.013981 seconds 
+  Import took 0.016636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.350029 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_normal.tif
+  artifactKey: Guid(dd1ad706663683546b665fd5b0286bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_normal.tif using Guid(dd1ad706663683546b665fd5b0286bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63707614dd49e5983a2e9e7c7ca675f8') in 0.013718 seconds 
+  Import took 0.016508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_mask.tif
+  artifactKey: Guid(58a4a6310bd23844bae88d82f7916059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_mask.tif using Guid(58a4a6310bd23844bae88d82f7916059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3927da245dd6de433e513c7616b34c') in 0.013517 seconds 
+  Import took 0.015854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.071475 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer
+  artifactKey: Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer using Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfeef0c5df58d6ad8b3d07d7f888e916') in 0.016485 seconds 
+  Import took 0.019813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 335.234497 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_albedo.tif
+  artifactKey: Guid(0cc0777f7d4a3444380eb084d74396b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_albedo.tif using Guid(0cc0777f7d4a3444380eb084d74396b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b2c8fc8b1bd34086ab7918dd8eb746') in 0.014172 seconds 
+  Import took 0.017205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_mask.tif
+  artifactKey: Guid(1a4d9960438e8f242a5155b27813efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_mask.tif using Guid(1a4d9960438e8f242a5155b27813efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cfb486adb945a05e79d20819e5a334') in 0.013663 seconds 
+  Import took 0.016081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_normal.tif
+  artifactKey: Guid(52f2b70b42682a145b20ea5f04fd6af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_normal.tif using Guid(52f2b70b42682a145b20ea5f04fd6af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd349fa00518d43b61ba5eb82918b9077') in 0.013203 seconds 
+  Import took 0.015711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 282.220110 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/scree.terrainlayer
+  artifactKey: Guid(6a3097ee6a39c594e8c63dae726b2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/scree.terrainlayer using Guid(6a3097ee6a39c594e8c63dae726b2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab3b3036d577a0d8ec64bc16da0d567') in 0.012986 seconds 
+  Import took 0.015701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 294.651622 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(4ffcef206f903ec45b1e4bf3c5be6011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(4ffcef206f903ec45b1e4bf3c5be6011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28605ba9b9aa4eeb2149a861d555ebbc') in 0.033131 seconds 
+  Import took 0.036359 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1238ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (964ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (402ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2225.
+Total: 4.565300 ms (FindLiveObjects: 0.267200 ms CreateObjectMapping: 0.079200 ms MarkObjects: 2.808000 ms  DeleteObjects: 1.409900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005142 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (383ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2227.
+Total: 4.360800 ms (FindLiveObjects: 0.206600 ms CreateObjectMapping: 0.041100 ms MarkObjects: 2.748700 ms  DeleteObjects: 1.362600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1934.260503 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(4ffcef206f903ec45b1e4bf3c5be6011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(4ffcef206f903ec45b1e4bf3c5be6011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eace98f4ee64c31741667860f7ef8d0') in 0.069152 seconds 
+  Import took 0.072390 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
