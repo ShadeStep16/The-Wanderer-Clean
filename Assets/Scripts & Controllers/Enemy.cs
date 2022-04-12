@@ -89,7 +89,7 @@ public class Enemy : MonoBehaviour
     public void Hurt(float inflict)
     {
         Chealth -= inflict;
-        if (Chealth <= 0)
+        if (Chealth <= 0 && !Dead)
         {
             Die();
         }
@@ -98,6 +98,7 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
+        GM.ZTokens += 10;
         this.Nav.enabled = false;
         Dead = true;
         Anim.SetBool("Dead", true);

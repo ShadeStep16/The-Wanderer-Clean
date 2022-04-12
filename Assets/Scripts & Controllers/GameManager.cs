@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,12 +13,19 @@ public class GameManager : MonoBehaviour
 
     public TMP_Text ECText;
     public TMP_Text WaveText;
+    public TMP_Text ZTText;
+    public TMP_Text HPText;
 
     public GameObject DeathMenuUI;
 
     public GameObject Torch;
 
-    public float Phealth = 100f;
+    public Slider HealthSlider;
+
+    public int ZTokens = 0;
+
+    public float Phealth = 150f;
+    public float MaxPhealth = 150f;
     public int enemyCount;
     public int CurrentWave = 0;
     public int WaveLim = 10;
@@ -44,6 +52,15 @@ public class GameManager : MonoBehaviour
 
         ECText.text = "Enemies: " + enemyCount;
         WaveText.text = "Wave " + CurrentWave;
+        ZTText.text = "ZTokens: " + ZTokens;
+
+        HealthSlider.maxValue = MaxPhealth;
+        HealthSlider.value = Phealth;
+
+        int HPPercent = Mathf.RoundToInt((Phealth / MaxPhealth) * 100);
+        HPText.text = HPPercent + "%";
+
+
 
         if (enemyCount <= 0)
         {
@@ -69,6 +86,10 @@ public class GameManager : MonoBehaviour
             
         }
 
+        if (Input.GetKeyDown(KeyCode.G) && ZTokens >= 500)
+        {
+            PHeal();
+        }
 
     }
 
@@ -98,6 +119,17 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
+    void PHeal()
+    {
+        if (Phealth < MaxPhealth)
+        {
+            Phealth = MaxPhealth;
+
+            ZTokens -= 500;
+        }
+    }
+
 
 
     void GameOver()

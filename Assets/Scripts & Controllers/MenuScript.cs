@@ -16,5 +16,9 @@ public class MenuScript : MonoBehaviour
         SceneManager.LoadScene("Level Endless");
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 
 }
