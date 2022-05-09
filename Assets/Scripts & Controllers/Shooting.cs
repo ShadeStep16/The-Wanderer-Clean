@@ -23,6 +23,7 @@ public class Shooting : MonoBehaviour
 
     private void Update()
     {
+        //if shoot not on cooldown, fire gun
         if (Input.GetButton("Fire1") && Time.time >= nextFire)
         {
             nextFire = Time.time + 1f / fireRate;
@@ -30,17 +31,19 @@ public class Shooting : MonoBehaviour
         }
     }
 
-
+    //shooting function
     void Fire()
     {
+        //play sfx and muzzle flash
         muzzle.Play();
         SFX.Play();
 
+        //raycast from camera, straight out in front - record information of hit gameobject
         RaycastHit hit;
         if (Physics.Raycast(playerCam.transform.position, playerCam.transform.forward, out hit, range))
         {
             Debug.Log(hit.transform.name);
-
+            //if the gameobject was an enemy (has an enemy script component) then hurt that enemy
             Enemy enemy = hit.transform.GetComponent<Enemy>();
             
             if (enemy != null)

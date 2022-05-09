@@ -25,6 +25,7 @@ public class FirstPersonLook : MonoBehaviour
 
     void Update()
     {
+        //if the player isn't dead or if the game isn't paused or finished - then let the player move the mouse to move the camera in game (main code from asset pack)
         if (DeathMenu.Dead == false && PauseMenu.Paused == false)
         {
             if (WinMenu.Win == false)

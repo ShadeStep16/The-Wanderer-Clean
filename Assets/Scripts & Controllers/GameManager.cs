@@ -34,11 +34,12 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //If playing endless mode, then set wave limit to unreachable number
         if (SceneManager.GetActiveScene().name == "Level Endless")
         {
             WaveLim = 1000000;
         }
-
+        //Populate SpawnPoints array for enemy spawning
         SpawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint");
 
         SpawnWave();
@@ -47,9 +48,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Enemy count - alive in scene
         GameObject[] Enemies = GameObject.FindGameObjectsWithTag("Enemy");
         enemyCount = Enemies.Length;
 
+        //Update HUD UI & Slider
         ECText.text = "Enemies: " + enemyCount;
         WaveText.text = "Wave " + CurrentWave;
         ZTText.text = "ZTokens: " + ZTokens;
@@ -61,18 +64,19 @@ public class GameManager : MonoBehaviour
         HPText.text = HPPercent + "%";
 
 
-
+        //if no enemies alive, new wave
         if (enemyCount <= 0)
         {
             SpawnWave();
         }
 
+        //if player out of health - game over
         if (Phealth <= 0)
         {
             GameOver();
         }
 
-        
+        //toggle torch
         if (Input.GetKeyDown(KeyCode.T))
         {
             if (Torch.activeInHierarchy)
@@ -86,6 +90,7 @@ public class GameManager : MonoBehaviour
             
         }
 
+        //buy and use heal
         if (Input.GetKeyDown(KeyCode.G) && ZTokens >= 500)
         {
             PHeal();
@@ -93,11 +98,13 @@ public class GameManager : MonoBehaviour
 
     }
 
+    //Function for spawning waves
     void SpawnWave()
     {
-
+        //increase current wave by 1
         CurrentWave++;
 
+        //if havent reached wave limit (game isnt over) then spawn enemy groups at the spawnpoints
         if (CurrentWave <= WaveLim)
         {
             int i = 0;
@@ -113,25 +120,27 @@ public class GameManager : MonoBehaviour
 
             }
         }
-        else if (CurrentWave > WaveLim)
+        else if (CurrentWave > WaveLim) //if the wave limit has been reached, then game over and player wins
         {
             WinMenu.Win = true;
         }
 
     }
 
+    //Heal function
     void PHeal()
     {
         if (Phealth < MaxPhealth)
         {
+            //set health back to max
             Phealth = MaxPhealth;
-
+            //spend 500 ZTokens
             ZTokens -= 500;
         }
     }
 
 
-
+    //game over function
     void GameOver()
     {
         DeathMenu.Dead = true;

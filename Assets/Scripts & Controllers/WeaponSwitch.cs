@@ -16,7 +16,7 @@ public class WeaponSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //if the player wants to change weapon (using scrollwheel) then cycle through the weapons, 1 by 1 (and loop back around if ID gets too low)
         int prevWeapon = currentWeapon;
 
         if (Input.GetAxis("Mouse ScrollWheel") > 0f)
@@ -43,6 +43,7 @@ public class WeaponSwitch : MonoBehaviour
             }
         }
 
+        //Switch to specific weapon based on number key input (not numpad)
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             currentWeapon = 0;
@@ -66,6 +67,7 @@ public class WeaponSwitch : MonoBehaviour
 
     }
 
+    //function to disable and enable the correct weapons (gameobjects)
     void SelectWeapon()
     {
         int i = 0;
